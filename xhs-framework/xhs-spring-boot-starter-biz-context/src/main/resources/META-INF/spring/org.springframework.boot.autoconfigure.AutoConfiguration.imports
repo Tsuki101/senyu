@@ -1,0 +1,2 @@
+com.lizhi.framework.biz.context.config.ContextAutoConfiguration
+com.lizhi.framework.biz.context.config.FeignContextAutoConfiguration

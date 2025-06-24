@@ -1,0 +1,5 @@
+com\lizhi\framework\biz\context\holder\LoginUserContextHolder.class
+com\lizhi\framework\biz\context\config\FeignContextAutoConfiguration.class
+com\lizhi\framework\biz\context\filter\HeaderUserId2ContextFilter.class
+com\lizhi\framework\biz\context\config\ContextAutoConfiguration.class
+com\lizhi\framework\biz\context\interceptor\FeignRequestInterceptor.class

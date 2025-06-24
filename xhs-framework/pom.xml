@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.lizhi</groupId>
+        <artifactId>xiaohashu</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <packaging>pom</packaging>
+    <artifactId>xhs-framework</artifactId>
+    <name>${project.artifactId}</name>
+    <description>平台基础设施层：封装一些常用功能，供各个业务线拿来即用</description>
+
+
+    <modules>
+        <module>xhs-common</module>
+        <module>xhs-spring-boot-starter-biz-operationlog</module>
+        <module>xhs-spring-boot-starter-jackson</module>
+        <module>xhs-spring-boot-starter-biz-context</module>
+
+    </modules>
+</project>

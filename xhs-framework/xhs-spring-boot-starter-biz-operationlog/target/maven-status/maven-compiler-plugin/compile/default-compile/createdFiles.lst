@@ -1,0 +1,3 @@
+com\lizhi\framework\biz\operationlog\config\ApiOperationLogAutoConfiguration.class
+com\lizhi\framework\biz\operationlog\aspect\ApiOperationLog.class
+com\lizhi\framework\biz\operationlog\aspect\ApiOperationLogAspect.class
