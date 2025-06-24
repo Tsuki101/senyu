@@ -1,0 +1,211 @@
+2025-02-13 11:15:28.176 [main] INFO  com.lizhi.xhs.auth.DruidTests - Starting DruidTests using Java 17.0.13 with PID 2668 (started by 18713 in C:\Users\18713\IdeaProjects\xiaohashu\xhs-auth)
+2025-02-13 11:15:28.177 [main] INFO  com.lizhi.xhs.auth.DruidTests - The following 1 profile is active: "dev"
+2025-02-13 11:15:29.766 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-02-13 11:15:30.204 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-02-13 11:15:30.713 [main] INFO  com.lizhi.xhs.auth.DruidTests - Started DruidTests in 3.028 seconds (process running for 3.856)
+2025-02-13 11:15:31.602 [main] INFO  com.lizhi.xhs.auth.DruidTests - privateKey: MIIBUwIBADANBgkqhkiG9w0BAQEFAASCAT0wggE5AgEAAkEApsJgDA4jsth8L+nxKPwzPpw9wPlPZCbSmE2Rb7W7828god1y223y3KdQRa90y3lMeeslS725xq+hVOa84SS2ewIDAQABAkAr5DZGhgQ0YxGQxOjyKitMu+/vFk+koylD6AqzFejR4gwzSdAs0OqetEgMsP0bOZd25D93byYV/w6xexwr/ImRAiEAruJa9Nxzjsc7s9YNCn9UI4yxr1UefgPc7XxS+aff1asCIQD0G0WA6vLjyAak2ApVwRqt5wC/e6e1FYmMYhjPWtQycQIgfU0ZNk+tTCNbl2JKPbc1JbNsq98k1c0WweFN4ipxqbkCIHrRleDNVbQBmkYqZNjMte21gozVXIYh9fjqCm2Z15YhAiBZDPWgh6E1fy64ka3JRIiQ5VQPKE6jA1rLkE2p9Y5eLw==
+2025-02-13 11:15:31.608 [main] INFO  com.lizhi.xhs.auth.DruidTests - publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKbCYAwOI7LYfC/p8Sj8Mz6cPcD5T2Qm0phNkW+1u/NvIKHdcttt8tynUEWvdMt5THnrJUu9ucavoVTmvOEktnsCAwEAAQ==
+2025-02-13 11:15:31.611 [main] INFO  com.lizhi.xhs.auth.DruidTests - password: BF+kThhFDaQQ25A8qzshtKCFQC4sPZ9RijlGmOxbfQ/Kr4DAbQyZSjkPPf2g7FvHiyRZqjWBHnVRIxpecvHYnA==
+2025-02-13 11:15:31.642 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.lizhi.xhs.auth.XhsAuthApplicationTests]: XhsAuthApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-13 11:15:31.645 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.lizhi.xhs.auth.XhsAuthApplication for test class com.lizhi.xhs.auth.XhsAuthApplicationTests
+2025-02-13 11:15:31.690 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.deleteByPrimaryKey - ==>  Preparing: delete from t_user where id = ?
+2025-02-13 11:15:31.849 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.deleteByPrimaryKey - ==> Parameters: 1(Long)
+2025-02-13 11:15:31.870 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.deleteByPrimaryKey - <==    Updates: 1
+2025-02-13 11:15:31.876 [main] DEBUG c.lizhi.xhs.auth.domain.mapper.UserDOMapper.insert - ==>  Preparing: insert into t_user (id, username, create_time, update_time) values (?, ?, ?, ?)
+2025-02-13 11:15:31.986 [main] DEBUG c.lizhi.xhs.auth.domain.mapper.UserDOMapper.insert - ==> Parameters: null, 梨汁2(String), 2025-02-13T11:15:31.876001700(LocalDateTime), 2025-02-13T11:15:31.876001700(LocalDateTime)
+2025-02-13 11:15:32.001 [main] DEBUG c.lizhi.xhs.auth.domain.mapper.UserDOMapper.insert - <==    Updates: 1
+2025-02-13 11:15:32.006 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, username, create_time, update_time from t_user where id = ?
+2025-02-13 11:15:32.012 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 3(Long)
+2025-02-13 11:15:32.026 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 0
+2025-02-13 11:15:32.034 [main] INFO  com.lizhi.xhs.auth.XhsAuthApplicationTests - User:null
+2025-02-13 11:15:32.038 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, username, create_time, update_time from t_user where id = ?
+2025-02-13 11:15:32.039 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 3(Long)
+2025-02-13 11:15:32.040 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 0
+2025-02-13 11:15:32.059 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-02-13 11:15:32.066 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-02-13 11:25:50.011 [main] INFO  com.lizhi.xhs.auth.DruidTests - Starting DruidTests using Java 17.0.13 with PID 26420 (started by 18713 in C:\Users\18713\IdeaProjects\xiaohashu\xhs-auth)
+2025-02-13 11:25:50.013 [main] INFO  com.lizhi.xhs.auth.DruidTests - The following 1 profile is active: "dev"
+2025-02-13 11:25:51.598 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-02-13 11:25:52.135 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-02-13 11:25:52.623 [main] INFO  com.lizhi.xhs.auth.DruidTests - Started DruidTests in 3.004 seconds (process running for 3.836)
+2025-02-13 11:25:53.468 [main] INFO  com.lizhi.xhs.auth.DruidTests - privateKey: MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEAnA5x/wdBNWhjvTPiQu+0euSHvpEL9uCLZNT7qf4eUNw2TRnndBRdvHw0wBMK7KshhFtLLr9TdCpELcQUVVZqDQIDAQABAkAZlk6/o3dgI+USnSKwme/sJHNTXiHpkSiZ2EgJN9bNqANFOkN8lCHE1KO7DR6DOCAL2SOLiD2LBFIH2TwaxHcRAiEA6qynhZJyST2V9p0fNv5yyPrwjn5O5yMafVJk5HBedjkCIQCqPNyq7eZNsqWqoEswTLz9u4aybc8JvTCUyXMtLa1ydQIhANzjbL9ubAKCZIB/vlzuPi7s/LazLyOiyBFEF9Fp75AJAiBXfeQjbRUaBaCjKrK55haTiRdXCJyJctRPA6HQLFOiKQIgFwS7CpcJJNYNOLOpTED09MMu7I2uAsaiFTNFE2VHD7c=
+2025-02-13 11:25:53.473 [main] INFO  com.lizhi.xhs.auth.DruidTests - publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJwOcf8HQTVoY70z4kLvtHrkh76RC/bgi2TU+6n+HlDcNk0Z53QUXbx8NMATCuyrIYRbSy6/U3QqRC3EFFVWag0CAwEAAQ==
+2025-02-13 11:25:53.476 [main] INFO  com.lizhi.xhs.auth.DruidTests - password: NFTTXcmUFuPvcWYZ8wwxqkJsMPFHBRMi5opG5AjvooBCzJ2o0IjGr66Oo6XuPfXBUKNUbDtPWSoNdF8r92DPOw==
+2025-02-13 11:25:53.512 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.lizhi.xhs.auth.XhsAuthApplicationTests]: XhsAuthApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-13 11:25:53.515 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.lizhi.xhs.auth.XhsAuthApplication for test class com.lizhi.xhs.auth.XhsAuthApplicationTests
+2025-02-13 11:25:53.563 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.deleteByPrimaryKey - ==>  Preparing: delete from t_user where id = ?
+2025-02-13 11:25:53.717 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.deleteByPrimaryKey - ==> Parameters: 1(Long)
+2025-02-13 11:25:53.722 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.deleteByPrimaryKey - <==    Updates: 0
+2025-02-13 11:25:53.728 [main] DEBUG c.lizhi.xhs.auth.domain.mapper.UserDOMapper.insert - ==>  Preparing: insert into t_user (id, username, create_time, update_time) values (?, ?, ?, ?)
+2025-02-13 11:25:53.808 [main] DEBUG c.lizhi.xhs.auth.domain.mapper.UserDOMapper.insert - ==> Parameters: null, 梨汁2(String), 2025-02-13T11:25:53.728014(LocalDateTime), 2025-02-13T11:25:53.728014(LocalDateTime)
+2025-02-13 11:25:53.817 [main] DEBUG c.lizhi.xhs.auth.domain.mapper.UserDOMapper.insert - <==    Updates: 1
+2025-02-13 11:25:53.822 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, username, create_time, update_time from t_user where id = ?
+2025-02-13 11:25:53.826 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 3(Long)
+2025-02-13 11:25:53.842 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-02-13 11:25:53.883 [main] INFO  com.lizhi.xhs.auth.XhsAuthApplicationTests - User:{"id":3,"username":"梨汁2","createTime":"2025-02-13 11:25:54","updateTime":"2025-02-13 11:25:54"}
+2025-02-13 11:25:53.887 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, username, create_time, update_time from t_user where id = ?
+2025-02-13 11:25:53.888 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 3(Long)
+2025-02-13 11:25:53.891 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-02-13 11:25:53.891 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.updateByPrimaryKey - ==>  Preparing: update t_user set username = ?, create_time = ?, update_time = ? where id = ?
+2025-02-13 11:25:53.916 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.updateByPrimaryKey - ==> Parameters: 犬小哈教程(String), 2025-02-13T11:25:54(LocalDateTime), 2025-02-13T11:25:53.891066500(LocalDateTime), 3(Long)
+2025-02-13 11:25:53.922 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.updateByPrimaryKey - <==    Updates: 1
+2025-02-13 11:25:53.943 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-02-13 11:25:53.952 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-02-13 11:27:06.406 [main] INFO  com.lizhi.xhs.auth.DruidTests - Starting DruidTests using Java 17.0.13 with PID 176 (started by 18713 in C:\Users\18713\IdeaProjects\xiaohashu\xhs-auth)
+2025-02-13 11:27:06.407 [main] INFO  com.lizhi.xhs.auth.DruidTests - The following 1 profile is active: "dev"
+2025-02-13 11:27:07.889 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-02-13 11:27:08.355 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-02-13 11:27:08.865 [main] INFO  com.lizhi.xhs.auth.DruidTests - Started DruidTests in 2.853 seconds (process running for 3.644)
+2025-02-13 11:27:09.724 [main] INFO  com.lizhi.xhs.auth.DruidTests - privateKey: MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEAjYI9T+yxyEtBsXD91c2x+GfPQ3lM0Booq8HHkqmwRABGOQbghTl0O9P/aI/Uq/JnfWUQr7ds5JJbPRuMOv4bzwIDAQABAkA6a8EFTKpPDybFa2kYSi4F6FGswRjht1MAKeXLWmvvfm/xuu7jXn4NSf7xwu1suuJN8561r3zUB7INT/llrN0BAiEAn96Eqw1q/EQ3cXkeio5lOtABDHoCkiylewcUyY+fJs8CIQDimWbOhG310HyuOItxz3iCh4kDy5nuV4F8JiFqrw77AQIgUzT/m//J1S60JK1Dhh4C9g9Y3GOMfwQZxOS0nwvPa+UCIQDGqJZpF9EPYOjuFMSr0qhkR07n9OfO/QiYPxWs4izQAQIgC1GeMWjbAuprQZ3TFl+EELX2Dd7Hjhw5duj54ysgw6I=
+2025-02-13 11:27:09.729 [main] INFO  com.lizhi.xhs.auth.DruidTests - publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAI2CPU/sschLQbFw/dXNsfhnz0N5TNAaKKvBx5KpsEQARjkG4IU5dDvT/2iP1KvyZ31lEK+3bOSSWz0bjDr+G88CAwEAAQ==
+2025-02-13 11:27:09.732 [main] INFO  com.lizhi.xhs.auth.DruidTests - password: dEUel30IrL2JrvJd+NeK/MBC3L6HA74/i/enqnXiqiBq6ARRD0bVPAwrykoHgVTsTJDF2XtEfSzi8BVMx0+4LA==
+2025-02-13 11:27:09.772 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.lizhi.xhs.auth.XhsAuthApplicationTests]: XhsAuthApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-13 11:27:09.775 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.lizhi.xhs.auth.XhsAuthApplication for test class com.lizhi.xhs.auth.XhsAuthApplicationTests
+2025-02-13 11:27:09.836 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.deleteByPrimaryKey - ==>  Preparing: delete from t_user where id = ?
+2025-02-13 11:27:09.985 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.deleteByPrimaryKey - ==> Parameters: 1(Long)
+2025-02-13 11:27:09.992 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.deleteByPrimaryKey - <==    Updates: 0
+2025-02-13 11:27:09.998 [main] DEBUG c.lizhi.xhs.auth.domain.mapper.UserDOMapper.insert - ==>  Preparing: insert into t_user (id, username, create_time, update_time) values (?, ?, ?, ?)
+2025-02-13 11:27:10.088 [main] DEBUG c.lizhi.xhs.auth.domain.mapper.UserDOMapper.insert - ==> Parameters: null, 梨汁2(String), 2025-02-13T11:27:09.998461200(LocalDateTime), 2025-02-13T11:27:09.998461200(LocalDateTime)
+2025-02-13 11:27:10.097 [main] DEBUG c.lizhi.xhs.auth.domain.mapper.UserDOMapper.insert - <==    Updates: 1
+2025-02-13 11:27:10.103 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, username, create_time, update_time from t_user where id = ?
+2025-02-13 11:27:10.107 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 3(Long)
+2025-02-13 11:27:10.126 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-02-13 11:27:10.161 [main] INFO  com.lizhi.xhs.auth.XhsAuthApplicationTests - User:{"id":3,"username":"犬小哈教程","createTime":"2025-02-13 11:25:54","updateTime":"2025-02-13 11:25:54"}
+2025-02-13 11:27:10.166 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, username, create_time, update_time from t_user where id = ?
+2025-02-13 11:27:10.167 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 3(Long)
+2025-02-13 11:27:10.169 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-02-13 11:27:10.170 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.updateByPrimaryKey - ==>  Preparing: update t_user set username = ?, create_time = ?, update_time = ? where id = ?
+2025-02-13 11:27:10.171 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.updateByPrimaryKey - ==> Parameters: 犬小哈教程(String), 2025-02-13T11:25:54(LocalDateTime), 2025-02-13T11:27:10.169499(LocalDateTime), 3(Long)
+2025-02-13 11:27:10.176 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.updateByPrimaryKey - <==    Updates: 1
+2025-02-13 11:27:10.194 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-02-13 11:27:10.200 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-02-13 11:49:22.586 [main] INFO  com.lizhi.xhs.auth.DruidTests - Starting DruidTests using Java 17.0.13 with PID 22036 (started by 18713 in C:\Users\18713\IdeaProjects\xiaohashu\xhs-auth)
+2025-02-13 11:49:22.588 [main] INFO  com.lizhi.xhs.auth.DruidTests - The following 1 profile is active: "dev"
+2025-02-13 11:49:24.157 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-02-13 11:49:24.757 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-02-13 11:49:25.295 [main] INFO  com.lizhi.xhs.auth.DruidTests - Started DruidTests in 3.1 seconds (process running for 3.898)
+2025-02-13 11:49:26.111 [main] INFO  com.lizhi.xhs.auth.DruidTests - privateKey: MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEAhI02QwJEUKytQGGZ1lbNGV1+GmQJic87NEYq7cqHzOgra772jKkzyV8rHe1h2mLamuFllDLpdWYuExa+3zWiVwIDAQABAkA6YHK4WkQ5/4Kh6xo0crALbsh92Pb2cYUShaCcb2kVjbvHIFcrG9JJJH4ZmbRPUCkEbS5AAc9mP3qvjLDSzlUJAiEAqLJ27xq9B9Zy/X04St9ZbvuB1OGP/66u3sSLFir6Z6MCIQDJJhLM+S6r7VPwsY1hwlR63S7ZFsEuX1EQHIk5tzpVvQIhAKdrnm+D+NBbevmqGYDtEqP7RYmRZkjZA0Ggi2yvsJ3DAiAuATw5jyBCiDQzj5hDbJu/wgit9AtY3MoAglZMUgDQjQIgLCkJs3MkVO+Epv+5Cbug7An+TM/iXrHFWMQLtfxyH3g=
+2025-02-13 11:49:26.117 [main] INFO  com.lizhi.xhs.auth.DruidTests - publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAISNNkMCRFCsrUBhmdZWzRldfhpkCYnPOzRGKu3Kh8zoK2u+9oypM8lfKx3tYdpi2prhZZQy6XVmLhMWvt81olcCAwEAAQ==
+2025-02-13 11:49:26.120 [main] INFO  com.lizhi.xhs.auth.DruidTests - password: CjN4fy7GP//J8ueVHcx5CM9sqnmdSpH7+CG/elSTcCMrkip3iKQ9bchVwoiajuCPDU36aQFEwVB61QdBsvR30A==
+2025-02-13 11:49:26.146 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.lizhi.xhs.auth.XhsAuthApplicationTests]: XhsAuthApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-13 11:49:26.148 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.lizhi.xhs.auth.XhsAuthApplication for test class com.lizhi.xhs.auth.XhsAuthApplicationTests
+2025-02-13 11:49:26.194 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.deleteByPrimaryKey - ==>  Preparing: delete from t_user where id = ?
+2025-02-13 11:49:26.357 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.deleteByPrimaryKey - ==> Parameters: 1(Long)
+2025-02-13 11:49:26.366 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.deleteByPrimaryKey - <==    Updates: 0
+2025-02-13 11:49:26.372 [main] DEBUG c.lizhi.xhs.auth.domain.mapper.UserDOMapper.insert - ==>  Preparing: insert into t_user (id, username, create_time, update_time) values (?, ?, ?, ?)
+2025-02-13 11:49:26.452 [main] DEBUG c.lizhi.xhs.auth.domain.mapper.UserDOMapper.insert - ==> Parameters: null, 梨汁2(String), 2025-02-13T11:49:26.371745200(LocalDateTime), 2025-02-13T11:49:26.371745200(LocalDateTime)
+2025-02-13 11:49:26.461 [main] DEBUG c.lizhi.xhs.auth.domain.mapper.UserDOMapper.insert - <==    Updates: 1
+2025-02-13 11:49:26.467 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, username, create_time, update_time from t_user where id = ?
+2025-02-13 11:49:26.471 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 3(Long)
+2025-02-13 11:49:26.512 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-02-13 11:49:26.551 [main] INFO  com.lizhi.xhs.auth.XhsAuthApplicationTests - User:{"id":3,"username":"犬小哈教程","createTime":"2025-02-13 11:25:54","updateTime":"2025-02-13 11:27:10"}
+2025-02-13 11:49:26.556 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, username, create_time, update_time from t_user where id = ?
+2025-02-13 11:49:26.557 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 3(Long)
+2025-02-13 11:49:26.559 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-02-13 11:49:26.559 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.updateByPrimaryKey - ==>  Preparing: update t_user set username = ?, create_time = ?, update_time = ? where id = ?
+2025-02-13 11:49:26.562 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.updateByPrimaryKey - ==> Parameters: 犬小哈教程(String), 2025-02-13T11:25:54(LocalDateTime), 2025-02-13T11:49:26.559813600(LocalDateTime), 3(Long)
+2025-02-13 11:49:26.568 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.updateByPrimaryKey - <==    Updates: 1
+2025-02-13 11:49:26.589 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-02-13 11:49:26.600 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-02-13 11:50:33.531 [main] INFO  com.lizhi.xhs.auth.DruidTests - Starting DruidTests using Java 17.0.13 with PID 27640 (started by 18713 in C:\Users\18713\IdeaProjects\xiaohashu\xhs-auth)
+2025-02-13 11:50:33.532 [main] INFO  com.lizhi.xhs.auth.DruidTests - The following 1 profile is active: "dev"
+2025-02-13 11:50:34.999 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-02-13 11:50:35.517 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-02-13 11:50:36.029 [main] INFO  com.lizhi.xhs.auth.DruidTests - Started DruidTests in 2.889 seconds (process running for 3.711)
+2025-02-13 11:50:36.866 [main] INFO  com.lizhi.xhs.auth.DruidTests - privateKey: MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEA7a7NAQC1reLLvzuPfVyLDpiHlkaobU7z8sULbcCzEFjjAzcN1xTEdcuLYlnabS4aa/YXGxZ708zJrdMZnnJJmQIDAQABAkACh8M8l9W+iH9DFAed61AukjnepyewnKrF9Ja1WVwJfllvzUuox3Y5+ImHbBz97Ql1L5koIe/S3DUM9WTrNNe/AiEA7+w2qytEdSeuO1c3U3i+SDO2h2aecmn5qM7dhr5zgXsCIQD9nCmmIMa//jfFyxoW/kwyAu3dvs2X4jkwgUQg5AAi+wIgckrgsCHodrb0dShTHtyCKPsZlN751B9P427IcQwBEkkCIC1Gl9jkuRbFl8dj/wBj3c5/319bFPEsnfEe4r7MdYnJAiEA1TrcHOw+27Igm/KlFvB6RDuQ1oikPuclxQFpsR6x1Kk=
+2025-02-13 11:50:36.870 [main] INFO  com.lizhi.xhs.auth.DruidTests - publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAO2uzQEAta3iy787j31ciw6Yh5ZGqG1O8/LFC23AsxBY4wM3DdcUxHXLi2JZ2m0uGmv2FxsWe9PMya3TGZ5ySZkCAwEAAQ==
+2025-02-13 11:50:36.873 [main] INFO  com.lizhi.xhs.auth.DruidTests - password: OEBaTGkY6uAGzero2qawYMrYo+OkbA9fjpUxJvTHyv468QXax/Zykpq+dn5KQMq9HT79nnXL0AM3l3v/OWLUwA==
+2025-02-13 11:50:36.898 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.lizhi.xhs.auth.XhsAuthApplicationTests]: XhsAuthApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-13 11:50:36.901 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.lizhi.xhs.auth.XhsAuthApplication for test class com.lizhi.xhs.auth.XhsAuthApplicationTests
+2025-02-13 11:50:36.938 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.deleteByPrimaryKey - ==>  Preparing: delete from t_user where id = ?
+2025-02-13 11:50:37.086 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.deleteByPrimaryKey - ==> Parameters: 1(Long)
+2025-02-13 11:50:37.092 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.deleteByPrimaryKey - <==    Updates: 0
+2025-02-13 11:50:37.098 [main] DEBUG c.lizhi.xhs.auth.domain.mapper.UserDOMapper.insert - ==>  Preparing: insert into t_user (id, username, create_time, update_time) values (?, ?, ?, ?)
+2025-02-13 11:50:37.190 [main] DEBUG c.lizhi.xhs.auth.domain.mapper.UserDOMapper.insert - ==> Parameters: null, 梨汁2(String), 2025-02-13T11:50:37.098660200(LocalDateTime), 2025-02-13T11:50:37.098660200(LocalDateTime)
+2025-02-13 11:50:37.198 [main] DEBUG c.lizhi.xhs.auth.domain.mapper.UserDOMapper.insert - <==    Updates: 1
+2025-02-13 11:50:37.204 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, username, create_time, update_time from t_user where id = ?
+2025-02-13 11:50:37.208 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 3(Long)
+2025-02-13 11:50:37.222 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-02-13 11:50:37.258 [main] INFO  com.lizhi.xhs.auth.XhsAuthApplicationTests - User:{"id":3,"username":"犬小哈教程","createTime":"2025-02-13 11:25:54","updateTime":"2025-02-13 11:49:27"}
+2025-02-13 11:50:37.263 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, username, create_time, update_time from t_user where id = ?
+2025-02-13 11:50:37.263 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 3(Long)
+2025-02-13 11:50:37.266 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-02-13 11:50:37.266 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.updateByPrimaryKey - ==>  Preparing: update t_user set username = ?, create_time = ?, update_time = ? where id = ?
+2025-02-13 11:50:37.268 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.updateByPrimaryKey - ==> Parameters: 犬小哈教程(String), 2025-02-13T11:25:54(LocalDateTime), 2025-02-13T11:50:37.266410800(LocalDateTime), 3(Long)
+2025-02-13 11:50:37.273 [main] DEBUG c.l.x.a.d.mapper.UserDOMapper.updateByPrimaryKey - <==    Updates: 1
+2025-02-13 11:50:37.291 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-02-13 11:50:37.298 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-02-13 17:18:53.015 [main] INFO  com.lizhi.xhs.auth.RedisTests - Starting RedisTests using Java 17.0.13 with PID 30656 (started by 18713 in C:\Users\18713\IdeaProjects\xiaohashu\xhs-auth)
+2025-02-13 17:18:53.016 [main] INFO  com.lizhi.xhs.auth.RedisTests - The following 1 profile is active: "dev"
+2025-02-13 17:18:53.668 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-13 17:18:53.671 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-13 17:18:53.706 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2025-02-13 17:18:55.476 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-02-13 17:18:55.992 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-02-13 17:18:56.648 [main] INFO  com.lizhi.xhs.auth.RedisTests - Started RedisTests in 4.058 seconds (process running for 4.991)
+2025-02-13 17:18:58.284 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-02-13 17:18:58.295 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-02-13 17:19:43.602 [main] INFO  com.lizhi.xhs.auth.RedisTests - Starting RedisTests using Java 17.0.13 with PID 30104 (started by 18713 in C:\Users\18713\IdeaProjects\xiaohashu\xhs-auth)
+2025-02-13 17:19:43.603 [main] INFO  com.lizhi.xhs.auth.RedisTests - The following 1 profile is active: "dev"
+2025-02-13 17:19:44.250 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-13 17:19:44.254 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-13 17:19:44.290 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2025-02-13 17:19:45.988 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-02-13 17:19:46.498 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-02-13 17:19:47.149 [main] INFO  com.lizhi.xhs.auth.RedisTests - Started RedisTests in 3.964 seconds (process running for 4.879)
+2025-02-13 17:19:48.569 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-02-13 17:19:48.578 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-02-13 17:21:57.135 [main] INFO  com.lizhi.xhs.auth.RedisTests - Starting RedisTests using Java 17.0.13 with PID 28816 (started by 18713 in C:\Users\18713\IdeaProjects\xiaohashu\xhs-auth)
+2025-02-13 17:21:57.136 [main] INFO  com.lizhi.xhs.auth.RedisTests - The following 1 profile is active: "dev"
+2025-02-13 17:21:57.819 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-13 17:21:57.823 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-13 17:21:57.860 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2025-02-13 17:21:59.593 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-02-13 17:22:00.086 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-02-13 17:22:00.696 [main] INFO  com.lizhi.xhs.auth.RedisTests - Started RedisTests in 3.983 seconds (process running for 4.898)
+2025-02-13 17:22:02.126 [main] INFO  com.lizhi.xhs.auth.RedisTests - value 值：梨汁
+2025-02-13 17:22:02.143 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-02-13 17:22:02.150 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-02-13 17:23:04.986 [main] INFO  com.lizhi.xhs.auth.RedisTests - Starting RedisTests using Java 17.0.13 with PID 31504 (started by 18713 in C:\Users\18713\IdeaProjects\xiaohashu\xhs-auth)
+2025-02-13 17:23:04.987 [main] INFO  com.lizhi.xhs.auth.RedisTests - The following 1 profile is active: "dev"
+2025-02-13 17:23:05.668 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-13 17:23:05.671 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-13 17:23:05.706 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2025-02-13 17:23:07.245 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-02-13 17:23:07.752 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-02-13 17:23:08.445 [main] INFO  com.lizhi.xhs.auth.RedisTests - Started RedisTests in 3.899 seconds (process running for 4.831)
+2025-02-13 17:23:09.638 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-02-13 17:23:09.647 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-02-13 17:24:41.319 [main] INFO  com.lizhi.xhs.auth.RedisTests - Starting RedisTests using Java 17.0.13 with PID 17640 (started by 18713 in C:\Users\18713\IdeaProjects\xiaohashu\xhs-auth)
+2025-02-13 17:24:41.320 [main] INFO  com.lizhi.xhs.auth.RedisTests - The following 1 profile is active: "dev"
+2025-02-13 17:24:41.961 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-13 17:24:41.965 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-13 17:24:41.999 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2025-02-13 17:24:43.688 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-02-13 17:24:44.178 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-02-13 17:24:44.809 [main] INFO  com.lizhi.xhs.auth.RedisTests - Started RedisTests in 3.909 seconds (process running for 4.823)
+2025-02-13 17:24:46.090 [main] INFO  com.lizhi.xhs.auth.RedisTests - key 是否存在：false
+2025-02-13 17:24:46.109 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-02-13 17:24:46.116 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-02-13 20:04:25.748 [main] INFO  com.lizhi.xhs.auth.ThreadPoolTaskExecutorTests - Starting ThreadPoolTaskExecutorTests using Java 17.0.13 with PID 11316 (started by 18713 in C:\Users\18713\IdeaProjects\xiaohashu\xhs-auth)
+2025-02-13 20:04:25.749 [main] INFO  com.lizhi.xhs.auth.ThreadPoolTaskExecutorTests - The following 1 profile is active: "dev"
+2025-02-13 20:04:26.428 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-13 20:04:26.432 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-13 20:04:26.469 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2025-02-13 20:04:28.104 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-02-13 20:04:28.554 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-02-13 20:04:29.196 [main] INFO  com.lizhi.xhs.auth.ThreadPoolTaskExecutorTests - Started ThreadPoolTaskExecutorTests in 3.87 seconds (process running for 4.833)
+2025-02-13 20:04:29.858 [AuthExecutor-1] INFO  com.lizhi.xhs.auth.ThreadPoolTaskExecutorTests - 异步线程中说: 犬小哈专栏
+2025-02-13 20:04:29.896 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-02-13 20:04:29.907 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-02-13 20:04:54.134 [main] INFO  com.lizhi.xhs.auth.ThreadPoolTaskExecutorTests - Starting ThreadPoolTaskExecutorTests using Java 17.0.13 with PID 29540 (started by 18713 in C:\Users\18713\IdeaProjects\xiaohashu\xhs-auth)
+2025-02-13 20:04:54.135 [main] INFO  com.lizhi.xhs.auth.ThreadPoolTaskExecutorTests - The following 1 profile is active: "dev"
+2025-02-13 20:04:54.809 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-13 20:04:54.813 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-13 20:04:54.851 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2025-02-13 20:04:56.458 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-02-13 20:04:56.894 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-02-13 20:04:57.449 [main] INFO  com.lizhi.xhs.auth.ThreadPoolTaskExecutorTests - Started ThreadPoolTaskExecutorTests in 3.733 seconds (process running for 4.676)
+2025-02-13 20:04:57.966 [AuthExecutor-1] INFO  com.lizhi.xhs.auth.ThreadPoolTaskExecutorTests - 异步线程中说: 犬小哈专栏
+2025-02-13 20:04:57.981 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-02-13 20:04:57.987 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
