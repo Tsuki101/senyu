@@ -1,0 +1,15 @@
+com\lizhi\xiaohashu\oss\biz\config\AliyunOSSProperties.class
+com\lizhi\xiaohashu\oss\biz\strategy\FileStrategy.class
+com\lizhi\xiaohashu\oss\biz\config\AliyunOSSConfig.class
+com\lizhi\xiaohashu\oss\biz\controller\FileController.class
+com\lizhi\xiaohashu\oss\biz\exception\GlobalExceptionHandler.class
+com\lizhi\xiaohashu\oss\biz\XiaohashuOssBizApplication.class
+com\lizhi\xiaohashu\oss\biz\strategy\impl\AliyunOSSFileStrategy.class
+com\lizhi\xiaohashu\oss\biz\config\MinioProperties.class
+com\lizhi\xiaohashu\oss\biz\strategy\impl\MinioFileStrategy.class
+com\lizhi\xiaohashu\oss\biz\config\MinioConfig.class
+com\lizhi\xiaohashu\oss\biz\service\impl\FileServiceImpl.class
+com\lizhi\xiaohashu\oss\biz\service\FileService.class
+com\lizhi\xiaohashu\oss\biz\factory\FileStrategyFactory.class
+com\lizhi\xiaohashu\oss\biz\controller\TestFeignController.class
+com\lizhi\xiaohashu\oss\biz\enums\ResponseCodeEnum.class

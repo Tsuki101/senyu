@@ -1,0 +1,15 @@
+C:\Users\18713\IdeaProjects\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\lizhi\xiaohashu\oss\biz\config\AliyunOSSConfig.java
+C:\Users\18713\IdeaProjects\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\lizhi\xiaohashu\oss\biz\strategy\impl\MinioFileStrategy.java
+C:\Users\18713\IdeaProjects\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\lizhi\xiaohashu\oss\biz\factory\FileStrategyFactory.java
+C:\Users\18713\IdeaProjects\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\lizhi\xiaohashu\oss\biz\controller\FileController.java
+C:\Users\18713\IdeaProjects\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\lizhi\xiaohashu\oss\biz\config\AliyunOSSProperties.java
+C:\Users\18713\IdeaProjects\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\lizhi\xiaohashu\oss\biz\enums\ResponseCodeEnum.java
+C:\Users\18713\IdeaProjects\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\lizhi\xiaohashu\oss\biz\config\MinioProperties.java
+C:\Users\18713\IdeaProjects\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\lizhi\xiaohashu\oss\biz\exception\GlobalExceptionHandler.java
+C:\Users\18713\IdeaProjects\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\lizhi\xiaohashu\oss\biz\service\impl\FileServiceImpl.java
+C:\Users\18713\IdeaProjects\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\lizhi\xiaohashu\oss\biz\XiaohashuOssBizApplication.java
+C:\Users\18713\IdeaProjects\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\lizhi\xiaohashu\oss\biz\config\MinioConfig.java
+C:\Users\18713\IdeaProjects\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\lizhi\xiaohashu\oss\biz\strategy\impl\AliyunOSSFileStrategy.java
+C:\Users\18713\IdeaProjects\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\lizhi\xiaohashu\oss\biz\service\FileService.java
+C:\Users\18713\IdeaProjects\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\lizhi\xiaohashu\oss\biz\strategy\FileStrategy.java
+C:\Users\18713\IdeaProjects\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\lizhi\xiaohashu\oss\biz\controller\TestFeignController.java
